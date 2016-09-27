@@ -16,13 +16,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
             .authorizeRequests()
                 .antMatchers("/", "/home").permitAll()
                 .anyRequest().authenticated()
-                .and()
-            .formLogin()
+                .and().httpBasic().disable()   
+                .authorizeRequests()
+                .antMatchers("/", "/pos/items/*").permitAll()
+                .anyRequest().permitAll()
+                .and().httpBasic().disable().csrf().disable() 
+                .authorizeRequests()
+                .antMatchers("/", "/pos/order/*").permitAll()
+                .anyRequest().permitAll()
+                .and().httpBasic().disable().csrf().disable() 
+            /*.formLogin()
                 .loginPage("/login")
                 .permitAll()
-                .and()
+                .and().httpBasic().disable()
             .logout()
-                .permitAll();
+                .permitAll()*/;
+        
     }
 
     @Autowired

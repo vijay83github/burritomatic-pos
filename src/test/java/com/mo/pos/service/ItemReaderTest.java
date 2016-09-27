@@ -1,4 +1,4 @@
-package com.mo.frontdesk.service;
+package com.mo.pos.service;
 
 import static org.junit.Assert.*;
 
