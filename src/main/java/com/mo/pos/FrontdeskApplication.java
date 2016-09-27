@@ -6,7 +6,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.WebApplicationInitializer;
 
-@ComponentScan(basePackages={"com.mo.frontdesk"})
+@ComponentScan(basePackages={"com.mo.pos"})
 @SpringBootApplication
 public class FrontdeskApplication extends SpringBootServletInitializer implements WebApplicationInitializer{
 

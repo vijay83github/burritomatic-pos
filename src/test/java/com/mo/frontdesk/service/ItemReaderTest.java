@@ -1,14 +1,12 @@
 package com.mo.frontdesk.service;
 
-import static org.junit.Assert.assertNull;
+import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import com.mo.pos.model.Items;
 import com.mo.pos.service.ItemReader;
-
-import static org.junit.Assert.assertEquals;
 public class ItemReaderTest {
 	ItemReader itemReader;
 	
