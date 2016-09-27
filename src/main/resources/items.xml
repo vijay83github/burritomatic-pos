@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="111" name="Book" category="A" price="10.5"/>
+	<item id="222" name="Mobile" category="B" price="12.5"/>
+	<item id="333" name="PenDrive" category="C"  price="15.5"/>
+</items>
