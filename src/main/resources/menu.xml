@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menulist>
+	<menu id="111" name="2-Ingredient Burrito-in-a-Bowl "  price="3.99"/>
+	<menu id="222" name="2-Ingredient Burrito"  price="4.99" />
+	<menu id="333" name="3-Ingredient Burrito"  price="5.99" />
+</menulist>

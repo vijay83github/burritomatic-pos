@@ -2,5 +2,8 @@
 .settings
 .project
 .classpath
+.idea
+*.iml
+*.ini
 /bin
 

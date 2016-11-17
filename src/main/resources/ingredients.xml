@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ingredients>
+	<ingredient id="1" name="rice"  type="Base"/>
+	<ingredient id="2" name="Tortila"  type="Base" />
+	<ingredient id="3" name="Chicken"  type="Meat"/>
+	<ingredient id="4" name="Steak"  type="Meat"/>
+	<ingredient id="5" name="Red Salsa"  type="Salsa"/>
+	<ingredient id="6" name="Green Salsa"  type="Salsa"/>
+	<ingredient id="7" name="Queso"  type="Salsa"/>
+	<ingredient id="8" name="Grated Cheese"  type="Salsa"/>
+	<ingredient id="9" name="Sour Cream"  type="Salsa"/>
+	<ingredient id="10" name="Gucamole"  type="Salsa"/>
+</ingredients>
